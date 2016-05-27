@@ -1,0 +1,22 @@
+{
+  "name": "w33ble.com",
+  "version": "1.0.0",
+  "description": "w33ble.com website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "prod": "echo 'ensure pm2 is available'; pm2 start app.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "~2.0.0",
+    "express": "~4.13.4",
+    "express-winston": "~1.4.0",
+    "winston": "~2.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "~3.7.0"
+  }
+}

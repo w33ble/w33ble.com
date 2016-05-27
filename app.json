@@ -1,0 +1,9 @@
+{
+    "name": "w33ble.com",
+    "script": "server.js",
+    "max_memory_restart": "100M",
+    "env": {
+        "NODE_ENV": "production",
+        "PORT": 8081
+    }
+}
