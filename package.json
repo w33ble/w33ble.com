@@ -8,7 +8,11 @@
     "start": "node server.js",
     "prod": "echo 'ensure pm2 is available'; pm2 start app.json"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:w33ble/w33ble.com.git"
+  },
+  "author": "Joe Fleming (https://github.com/w33ble)",
   "license": "ISC",
   "dependencies": {
     "dotenv": "~2.0.0",
