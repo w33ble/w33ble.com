@@ -15,12 +15,12 @@
   "author": "Joe Fleming (https://github.com/w33ble)",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "~2.0.0",
-    "express": "~4.13.4",
-    "express-winston": "~1.4.0",
-    "winston": "~2.2.0"
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "express-winston": "^2.3.0",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
-    "node-sass": "~3.7.0"
+    "node-sass": "^4.5.2"
   }
 }
